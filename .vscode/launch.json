@@ -1,13 +1,12 @@
 {
     "version": "0.2.0",
     "configurations": [
-        {
+         {
             "type": "java",
-            "name": "Debug (Spring Boot)",
+            "name": "ApiApplication",
             "request": "launch",
-            "mainClass": "com.lsilvpin.javamicroservice.JavaMicroserviceApplication",
-            "projectName": "java-microservice",
-            "args": ""
+            "mainClass": "med.voll.api.ApiApplication",
+            "projectName": "api"
         }
     ]
 }
